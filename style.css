@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: justify;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2{
+    width: 96%;
+    background-color: cadetblue;
+    text-align: center;
+    height: 5vh;
+    padding: 20px;
+    color: white;
+}
+.intro, .skills{
+    width: 99%;
+}
+.intro h3, .skills h3{
+    background-color:rgb(162, 81, 24);
+    color: white;
+    height: 5vh;
+    padding: 8px;
+}
+.intro p{
+    padding: 10px;
+    text-align: justify;
+}
+.tel img{
+    width: 30px;
+    height: 30px;
+}
+.tel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 99%;
+    background-color: rgb(185, 205, 205);
+    margin: auto;
+    margin-top: 20px;
+    height: 80px;
+}
+.icns{
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+@media screen and (max-width: 500px){
+    .tel img {
+            width: 20px;
+            height: 20px;
+    }
+    .tel{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        margin: auto;
+    }
+}
